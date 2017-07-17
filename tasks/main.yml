@@ -1,0 +1,10 @@
+- name: add tower inventory with variables
+  tower_inventory:
+    name: "{{ inventory_name }}"
+    organization: "{{ organization }}"
+    state: present
+    variables: "{{ inventory_variables }}"
+    tower_host: "{{ tower_hostname }}"
+    tower_username: "{{ tower_username }}"
+    tower_password: "{{ tower_password }}"
+  delegate_to: 127.0.0.1

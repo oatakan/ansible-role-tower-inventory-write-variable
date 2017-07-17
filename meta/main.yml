@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Orcun Atakan
+  description: Ansible galaxy role to write variables to an Ansible Tower Inventory.
+  company: Red Hat
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 2.3
+
+  platforms:
+  - name: EL
+    versions:
+    - all
+
+  categories:
+  - all
+
+  galaxy_tags:
+  - tower
+  - inventory
+
+dependencies: []

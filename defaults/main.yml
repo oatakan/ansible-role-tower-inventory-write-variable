@@ -1,0 +1,6 @@
+tower_hostname: ~
+tower_username: ~
+tower_password: ~
+
+inventory_name: test
+organization: Default
